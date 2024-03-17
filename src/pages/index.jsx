@@ -50,8 +50,7 @@ export default function Home({ previousPathname }) {
           >
             I&apos;m a full-stack engineer specializing in building & designing
             scalable applications with great user experience. My current tech
-            stack includes Next.js, Typescript & Tailwind and I occasionally
-            dabble in AI & blockchain technology.
+            stack includes Next.js, Typescript & Tailwind, Javascript, Node Js & MongoDB.
           </p>
 
           <Button

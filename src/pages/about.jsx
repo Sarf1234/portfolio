@@ -112,21 +112,19 @@ export default function About() {
                 mindset of a developer.
               </p>
               <p>
-                As a child, I had an obsession with optimization which has
-                stayed with me till this day. During my time in Mumbai, I would
-                take local trains and constantly find ways to optimise my
-                journey by discovering the shortest routes and fastest trains. I
-                also loved playing video games, and I was always trying to find
-                the best way to beat the game. I think that&apos;s what got me
-                into coding. I wanted to find the best way to solve a problem.
+                I come from Satna, 
+                a small town where my passion for coding blossomed. 
+                I've been captivated by the world of programming. 
+                I've delved into various languages and technologies, 
+                mastering JavaScript, C++, and diving deep into web development 
+                with frameworks like React and Next.js.
               </p>
               <p>
-                Initially, I started learning Python to automate mundane tasks
-                in my daily life, but I soon fell in love with programming and
-                began exploring other languages as well. I have been working
-                with web technologies for the past 4 years now and I have been
-                able to learn new tools & frameworks independently, applying
-                them to real-world problems.
+                Over the past 2.5 years, I've immersed myself in the field, 
+                gaining hands-on experience and honing my skills through freelancing 
+                projects.Today, I thrive on tackling 
+                real-world problems, continuously learning and 
+                applying new tools and frameworks to create innovative solutions.
               </p>
               <div className="cursor-default">
                 <span className="font-poppins font-bold tracking-widest underline">

@@ -84,7 +84,7 @@ export default function About() {
               <div className="max-w-xs px-2.5">
                 <Image
                   src={portraitImage}
-                  alt="Avatar Image of Rittik Basu"
+                  alt="Avatar Image of SarfRajs"
                   sizes="(min-width: 1024px) 32rem, 20rem"
                   className="transition duration-500 hover:scale-110"
                   priority
@@ -108,23 +108,21 @@ export default function About() {
               <p>
                 Although I have a degree in computer science, I still consider
                 myself a self taught developer. I got into coding in the second
-                year of my undergrad, but I think I&apos;ve always had the
+                year of my undergrad, but I think I have always had the
                 mindset of a developer.
               </p>
               <p>
-                I come from Satna, 
-                a small town where my passion for coding blossomed. 
-                I've been captivated by the world of programming. 
-                I've delved into various languages and technologies, 
-                mastering JavaScript, C++, and diving deep into web development 
+                I come from Satna, a small town where my passion for coding blossomed.
+                I&apos;ve been captivated by the world of programming.
+                I&apos;ve delved into various languages and technologies,
+                mastering JavaScript, C++, and diving deep into web development
                 with frameworks like React and Next.js.
               </p>
               <p>
-                Over the past 2.5 years, I've immersed myself in the field, 
-                gaining hands-on experience and honing my skills through freelancing 
-                projects.Today, I thrive on tackling 
-                real-world problems, continuously learning and 
-                applying new tools and frameworks to create innovative solutions.
+                Over the past 2.5 years, I&apos;ve immersed myself in the field,
+                gaining hands-on experience and honing my skills through freelancing
+                projects. Today, I thrive on tackling real-world problems, continuously
+                learning and applying new tools and frameworks to create innovative solutions.
               </p>
               <div className="cursor-default">
                 <span className="font-poppins font-bold tracking-widest underline">

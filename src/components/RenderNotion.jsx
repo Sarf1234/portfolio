@@ -53,8 +53,8 @@ export const Text = ({ text, className }) => {
 }
 
 const components = {
-  AvatarImg: (props) => <Image {...props} />,
-  MediaImg: (props) => <Image {...props} fill />,
+  AvatarImg: (props) => <Image alt='sarf_otaotpn' {...props} />,
+  MediaImg: (props) => <Image alt='sarf_otaotpn' {...props} fill />,
 }
 
 const Embed = (value, type) => {

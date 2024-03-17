@@ -31,8 +31,8 @@ function Project({ project, index }) {
             `h-full w-full object-contain duration-1000 ease-in-out ${delay[index]}`,
             isLoading ? 'blur-lg' : 'blur-0'
           )}
-          height="300"
-          width="500"
+          height="100%"
+          width="100%"
           placeholder="blur"
           onLoadingComplete={() => setLoading(false)}
         />

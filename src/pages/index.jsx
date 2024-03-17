@@ -28,7 +28,7 @@ export default function Home({ previousPathname }) {
               previousPathname === undefined && 'animate-title'
             )}
           >
-            Rittik Basu.
+            Sarf Raj Shekh.
           </h1>
           {/* <div className="hidden h-px animate-fade-right bg-gradient-to-r from-zinc-500/0 via-zinc-300/50 to-zinc-500/0 dark:from-zinc-500/0 dark:via-zinc-500/50 dark:to-zinc-500/0 md:block" /> */}
           <div

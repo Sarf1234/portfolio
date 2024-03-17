@@ -10,13 +10,12 @@ import {
   SiJavascript,
   SiReact,
   SiNextdotjs,
-  SiPython,
   SiTailwindcss,
   SiFirebase,
-  SiJupyter,
   SiFlask,
-  SiPostgresql,
+  SiRedux ,
 } from 'react-icons/si'
+import { FaJava, FaHtml5  } from "react-icons/fa";
 
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
@@ -101,7 +100,7 @@ export default function About() {
             text-transparent dark:from-purple-400 dark:via-indigo-400
             dark:to-pink-400"
               >
-                Rittik Basu.
+                Sarf Raj Shekh.
               </span>{' '}
               <br />I live in India, where I break things & learn fast.
             </h1>
@@ -139,55 +138,49 @@ export default function About() {
                 >
                   <Skills
                     icon={SiJavascript}
-                    className="group-hover:fill-yellow-400 dark:group-hover:fill-yellow-300"
+                    className="group-hover:fill-yellow-400 cursor-pointer dark:group-hover:fill-yellow-300"
                   >
                     Javascript
                   </Skills>
                   <Skills
                     icon={SiReact}
-                    className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
+                    className="group-hover:fill-blue-400 cursor-pointer dark:group-hover:fill-blue-300"
                   >
                     React
                   </Skills>
                   <Skills
                     icon={SiNextdotjs}
-                    className="group-hover:fill-black dark:group-hover:fill-white"
+                    className="group-hover:fill-black cursor-pointer dark:group-hover:fill-white"
                   >
                     Next.js
                   </Skills>
                   <Skills
-                    icon={SiFlask}
-                    className="group-hover:fill-black dark:group-hover:fill-white"
+                    icon={SiRedux}
+                    className="group-hover:fill-black cursor-pointer dark:group-hover:fill-white"
                   >
-                    Flask
+                    Redux
                   </Skills>
                   <Skills
                     icon={SiTailwindcss}
-                    className="group-hover:fill-blue-400"
+                    className="group-hover:fill-blue-400 cursor-pointer"
                   >
                     Tailwind
                   </Skills>
                   <Skills
-                    icon={SiPostgresql}
-                    className="group-hover:fill-blue-500"
+                    icon={FaHtml5}
+                    className="group-hover:fill-blue-500 cursor-pointer"
                   >
-                    PostgreSQL
+                    HTML
                   </Skills>
                   <Skills
-                    icon={SiJupyter}
-                    className="group-hover:fill-orange-400"
+                    icon={FaJava}
+                    className="group-hover:fill-orange-400 cursor-pointer"
                   >
-                    Jupyter
-                  </Skills>
-                  <Skills
-                    icon={SiPython}
-                    className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
-                  >
-                    Python
+                    Java
                   </Skills>
                   <Skills
                     icon={SiFirebase}
-                    className="group-hover:fill-yellow-400 dark:group-hover:fill-yellow-300"
+                    className="group-hover:fill-yellow-400 cursor-pointer dark:group-hover:fill-yellow-300"
                   >
                     Firebase
                   </Skills>
@@ -204,36 +197,36 @@ export default function About() {
           <div className="hidden font-poppins lg:col-span-5 lg:block lg:pl-10">
             <div className="flex justify-center">
               <ul role="list" className="space-y-6">
-                <SocialLink
-                  href="https://twitter.com/_rittik"
+                {/* <SocialLink
+                  href="https://twitter.com/sarfraj"
                   icon={BsTwitter}
                   className=""
                 >
-                  _rittik
-                </SocialLink>
+                  _sarf_raj
+                </SocialLink> */}
                 <SocialLink
-                  href="https://github.com/rittikbasu"
+                  href="https://github.com/Sarf1234"
                   icon={BsGithub}
                   className=""
                 >
-                  rittikbasu
+                  Sarf1234
                 </SocialLink>
                 <SocialLink
-                  href="https://www.linkedin.com/in/rittikbasu/"
+                  href="https://www.linkedin.com/in/sarf-raj-shekh-20812b198/"
                   icon={FaLinkedinIn}
                   className=""
                 >
-                  rittikbasu
+                  sarf-raj-shekh
                 </SocialLink>
                 <div className="flex justify-center">
                   <div className="w-24 border-t border-zinc-300 dark:border-zinc-600/40"></div>
                 </div>
                 <SocialLink
-                  href="mailto:hello@rittik.io"
+                  href="mailto:sarfarajshekh69@gmail.com"
                   icon={MdEmail}
                   className=""
                 >
-                  hello@rittik.io
+                  sarfarajshekh69@gmail.com
                 </SocialLink>
                 <Button href="/projects" className="py-2">
                   See my projects

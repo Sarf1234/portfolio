@@ -1,12 +1,12 @@
 export const baseUrl = process.env.NEXT_PUBLIC_WEBSITE_URL
 
 const seoConfig = {
-  defaultTitle: 'Rittik Basu | Full Stack Developer',
-  titleTemplate: '%s | Rittik Basu',
+  defaultTitle: 'Sarf Raj Shekh | Full Stack Developer',
+  titleTemplate: '%s | Sarf Raj Shekh',
   description:
     'A full-stack engineer specializing in building & designing scalable applications with great user experience.',
   openGraph: {
-    title: 'Rittik Basu',
+    title: 'Sarf Raj Shekh',
     description:
       'A full-stack engineer specializing in building & designing scalable applications with great user experience.',
     images: [
@@ -14,13 +14,13 @@ const seoConfig = {
         url: `${baseUrl}api/og?title=home`,
         width: 1200,
         height: 600,
-        alt: `Rittik Basu | Full Stack Developer`,
+        alt: `Sarf Raj Shekh | Full Stack Developer`,
       },
     ],
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    site_name: 'Rittik Basu',
+    site_name: 'Sarf Raj Shekh',
   },
   twitter: {
     handle: '@_rittik',

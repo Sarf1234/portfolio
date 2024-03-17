@@ -1,60 +1,58 @@
-import summariser from '@/images/projects/summariser.png'
-import trackrBot from '@/images/projects/trackrBot.png'
-import amicon from '@/images/projects/amicon.png'
-import yc from '@/images/projects/yc.png'
-import frize from '@/images/projects/frize.png'
+import erental1 from '@/images/projects/erental1.png'
+import odette from '@/images/projects/odette.png'
+import fusion from '@/images/projects/fusion.png'
+import houseHunter from '@/images/projects/houseHunter.png'
+import erentaladmin from '@/images/projects/erentaladmin.png'
+
+
 
 const data = [
   {
-    title: 'Frize',
+    title: 'e-Rentals',
     description:
-      'An interactive dashboard that transforms time-tracking data from Rize into beautiful charts, graphs and insights.',
-    techUsed: ['Next.js', 'Tailwind', 'Tremor UI', 'Supabase', 'OpenAI'],
-    image: frize,
-    link: 'https://frize.rittik.io',
-    github: 'https://github.com/rittikbasu/frize',
+      'e-Rentals: Your one-stop rental destination. Browse and rent party essentials, tools, outdoor gear, electronics, home appliances, sports equipment, and special occasion items hassle-free. Save money and space while enjoying top-quality items for any occasion. Explore our inventory and rent what you need today',
+    techUsed: ['Next.js', 'React', 'Tailwind', 'Google-Maps', 'Redux', 'Java', 'SpringBoot', 'MySQL' ],
+    image: erental1,
+    link: 'https://erentals.in',
+    github: 'https://erentals.in',
   },
   {
-    title: 'Price Alert Bot  (28 ⭐ on GitHub)',
+    title: 'Odette',
     description:
-      'A Telegram chatbot that helps you set price alerts for amazon products and sends you an alert message when it reaches the target price.',
-    techUsed: ['Python', 'Telegram Bot API', 'ScraperAPI', 'Google Sheets API'],
-    image: trackrBot,
-    link: 'https://telegram.me/PriceA1ertBot',
-    github: 'https://github.com/rittikbasu/trackrBot',
+      'Navigate through premium sailing products with ease. Explore a curated collection of sails, rigging, and accessories designed for enthusiasts. With expert advice and quality assurance, elevate your sailing experience with Odette Sails',
+    techUsed: ['Next.js', 'React', 'Tailwind', 'Redux',  ],
+    image: odette,
+    link: 'https://odette.in/',
+    github: 'https://odette.in/',
   },
   {
-    title: 'Job Client for Hacker News',
+    title: 'House Hunter',
     description:
-      'A fast and lightweight job client for Hacker News that helps you find Y Combinator startups that are currently hiring.',
-    techUsed: ['Next.js', 'Tailwind', 'Hacker News API'],
-    image: yc,
-    link: 'https://yc.rittik.io',
-    github: 'https://github.com/rittikbasu/yc-job-client',
+      'Your ultimate guide to finding the perfect home. Browse listings, filter by preferences, and explore detailed descriptions and images. With user-friendly tools and expert advice, streamline your search for your dream home. Start your journey with House Hunter today.',
+    techUsed: ['React', 'Material'],
+    image: houseHunter,
+    link: 'https://realstatehountor.netlify.app/',
+    github: 'https://github.com/Sarf1234/HouseHunter',
   },
   {
-    title: 'Amicon',
+    title: 'Fusion Dashboard',
     description:
-      'An intra campus networking web app for students of Amity University to connect with each other, see where their peers are from and find and share information more easily.',
-    techUsed: ['Javascript', 'Firebase', 'Bootstrap'],
-    image: amicon,
-    link: 'https://amicon-v1.web.app/',
-    github: '',
+      'User Dashboard: Effortlessly manage your schedule and tasks. Access your calendar, track deadlines, and organize projects all in one place. Stay on top of your commitments with intuitive tools designed for productivity. Simplify your life with the User Dashboard.',
+    techUsed: ['Next.js', 'Tailwind'],
+    image: fusion,
+    link: 'https://fusiondashboard1.netlify.app/',
+    github: 'https://github.com/Sarf1234/FusionUi',
   },
   {
-    title: 'Text Summarizer',
+    title: 'Erentals Admin Dashboard',
     description:
-      'Summarises text content from a web article or user input and provides an elegant summary of the provided text using extractive summarization.',
-    image: summariser,
-    techUsed: [
-      'Python',
-      'Flask',
-      'Natural Language Processing',
-      'Machine Learning',
-    ],
-    link: 'https://summariser.rittikbasu.repl.co/',
-    github: 'https://github.com/rittikbasu/text-summarizer',
+      'Erentals Admin Dashboard: Your centralized control hub for managing rentals. Monitor inventory, track orders, and streamline customer interactions. With intuitive tools and analytics, optimize operations and enhance customer satisfaction. Simplify rental management with Erentals Admin Dashboard',
+    techUsed: ['Javascript', 'Next js', 'React', 'Tailwind', 'Material UI', 'Bootstrap'],
+    image: erentaladmin,
+    link: 'https://erentals.in',
+    github: 'https://erentals.in',
   },
+  
 ]
 
 export default data
